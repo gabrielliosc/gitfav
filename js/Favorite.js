@@ -4,8 +4,6 @@ export class Favorites {
     constructor(root) {
         this.root = document.querySelector(root)
         this.load()
-
-        GithubUser.search('gabrielliosc').then(console.log)
     }
 
     load() {
@@ -137,7 +135,7 @@ export class FavoritesView extends Favorites {
         
         tr.innerHTML = `
         <tr>
-            <td class="nenhum">
+            <td class="none">
                 <img src="./assets/img/none_star.svg" alt="">
                 <span>Nenhum favorito ainda</span>
             </td>
