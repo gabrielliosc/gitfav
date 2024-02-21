@@ -159,7 +159,7 @@ td .remove{
     color: #F75A68;
     cursor: pointer;
 }
-.nenhum {
+.none {
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -169,7 +169,7 @@ td .remove{
     margin: 0 auto;
     margin-right: -130px;
 }
-.nenhum span{
+.none span{
     color: #4E5455;
     font-size: 50px;
     font-weight: bold;
